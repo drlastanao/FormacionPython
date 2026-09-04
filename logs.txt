@@ -1,0 +1,8 @@
+2026-09-04 08:15:23 [INFO] User session started - user_id=1024 ip=192.168.1.50
+2026-09-04 08:15:25 [WARN] High memory usage detected - usage=87% threshold=80%
+2026-09-04 08:15:30 [ERROR] Database connection failed - db=main_db host=10.0.0.12 err_code=5003
+2026-09-04 08:15:32 [INFO] Cache flushed successfully - items_cleared=1420
+2026-09-04 08:15:40 [ERROR] Payment gateway timeout - provider=Stripe tx_id=tx_99812 err_code=4008
+2026-09-04 08:16:01 [FATAL] System out of memory - service=auth-service process_id=4120
+2026-09-04 08:16:15 [WARN] API rate limit approaching - client=AppMobile remaining=12
+2026-09-04 08:16:22 [ERROR] Unauthorized access attempt - endpoint=/api/admin/config ip=45.33.22.11 err_code=4001
