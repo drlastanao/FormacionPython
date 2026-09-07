@@ -122,6 +122,11 @@ for palabra in texto.split():
 #ordenar el diccionario por frecuencia de mayor a menor
 frecuencias_ordenadas = dict(sorted(frecuencias.items(), key=lambda item: item[1], reverse=True))
 
+#quitar frecuncias igual a 1
+frecuencias_ordenadas = {k: v for k, v in frecuencias_ordenadas.items() if v > 2}
+
+#quitar frecuencias mayores a 100
+frecuencias_ordenadas = {k: v for k, v in frecuencias_ordenadas.items() if v <= 100}
 
 print(frecuencias_ordenadas)
 
